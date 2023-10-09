@@ -1,0 +1,43 @@
+table {
+    border: solid black 2px;
+    width: 800px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+th {
+    border: solid 1.5px black;
+    background-color: lightcoral;
+}
+
+td {
+    border: solid black 1px;
+    background-color: lightgreen;
+}
+
+img {
+    width: 100px;
+}
+
+li img {
+    width: 50px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+Table table {
+    width: 300px;
+    padding: 0px;
+    color: white;
+}
+
+table table th {
+    background-color: cadetblue;
+}
+
+table table td {
+    background-color: darkslateblue;
+}
